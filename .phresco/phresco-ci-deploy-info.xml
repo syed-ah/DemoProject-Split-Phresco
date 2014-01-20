@@ -10,22 +10,21 @@
         <requiresOnline>false</requiresOnline>
         <inheritedByDefault>true</inheritedByDefault>
         <implementation>
-           <dependency>
-               <groupId>com.photon.phresco.plugins</groupId>
-               <artifactId>java-phresco-plugin</artifactId>
-               <type>jar</type>
-               <version>3.2.0.10002</version>
-               <class>com.photon.phresco.plugins.java.JavaPlugin</class>
-           </dependency>
-       </implementation>
+            <dependency>
+                <groupId>com.photon.phresco.plugins</groupId>
+                <artifactId>java-phresco-plugin</artifactId>
+                <type>jar</type>
+                <version>3.2.0.10002</version>
+                <class>com.photon.phresco.plugins.java.JavaPlugin</class>
+            </dependency>
+        </implementation>
         <language>java</language>
         <instantiationStrategy>per-lookup</instantiationStrategy>
         <executionStrategy>once-per-session</executionStrategy>
         <threadSafe>false</threadSafe>
         <configuration>
             <parameters>
-                
-				<parameter>
+                <parameter>
                     <name>
                         <value lang="en">Show Settings</value>
                     </name>
@@ -35,9 +34,9 @@
                     <description></description>
                     <key>showSettings</key>
                     <multiple>false</multiple>
+                    <value>true</value>
                     <sort>false</sort>
                     <show>true</show>
-                    <value>true</value>
                     <dependency>environmentName</dependency>
                 </parameter>
                 <parameter>
@@ -47,13 +46,13 @@
                     </name>
                     <type>DynamicParameter</type>
                     <dynamicParameter>
-                         <class>com.photon.phresco.impl.EnvironmentsParameterImpl</class>
+                        <class>com.photon.phresco.impl.EnvironmentsParameterImpl</class>
                         <dependencies>
                             <dependency>
-                                <groupId>com.photon.phresco.commons</groupId>
-                                <artifactId>phresco-commons</artifactId>
-                                <type>jar</type>
-                                <version>3.2.0.10002</version>
+<groupId>com.photon.phresco.commons</groupId>
+<artifactId>phresco-commons</artifactId>
+<type>jar</type>
+<version>3.2.0.10002</version>
                             </dependency>
                         </dependencies>
                     </dynamicParameter>
@@ -61,9 +60,9 @@
                     <editable>true</editable>
                     <key>environmentName</key>
                     <multiple>false</multiple>
+                    <value>Production</value>
                     <sort>false</sort>
                     <show>true</show>
-                    <value></value>
                     <dependency>dataBase,fetchSql</dependency>
                 </parameter>
                 <parameter>
@@ -95,11 +94,11 @@
                         <value key="showDebug">Show Debug</value>
                     </possibleValues>
                     <multiple>false</multiple>
+                    <value></value>
                     <sort>false</sort>
                     <show>true</show>
-                    <value></value>
                 </parameter>
-                 <parameter>
+                <parameter>
                     <name>
                         <value lang="en">Execute Sql</value>
                     </name>
@@ -122,10 +121,10 @@
                         <class>com.photon.phresco.framework.param.impl.DynamicDataBaseImpl</class>
                         <dependencies>
                             <dependency>
-                                <groupId>com.photon.phresco.framework</groupId>
-                                <artifactId>phresco-framework-impl</artifactId>
-                                <type>jar</type>
-                                <version>3.2.0.10002</version>
+<groupId>com.photon.phresco.framework</groupId>
+<artifactId>phresco-framework-impl</artifactId>
+<type>jar</type>
+<version>3.2.0.10002</version>
                             </dependency>
                         </dependencies>
                     </dynamicParameter>
@@ -148,10 +147,10 @@
                         <class>com.photon.phresco.framework.param.impl.DynamicFetchSqlImpl</class>
                         <dependencies>
                             <dependency>
-                                <groupId>com.photon.phresco.framework</groupId>
-                                <artifactId>phresco-framework-impl</artifactId>
-                                <type>jar</type>
-                                <version>3.2.0.10002</version>
+<groupId>com.photon.phresco.framework</groupId>
+<artifactId>phresco-framework-impl</artifactId>
+<type>jar</type>
+<version>3.2.0.10002</version>
                             </dependency>
                         </dependencies>
                     </dynamicParameter>
@@ -163,7 +162,7 @@
                     <value></value>
                     <sort>true</sort>
                     <show>false</show>
-                </parameter>                
+                </parameter>
             </parameters>
         </configuration>
     </mojo>
@@ -177,14 +176,14 @@
         <requiresOnline>false</requiresOnline>
         <inheritedByDefault>true</inheritedByDefault>
         <implementation>
-           <dependency>
-               <groupId>com.photon.phresco.plugins</groupId>
-               <artifactId>ci-phresco-plugin</artifactId>
-               <type>jar</type>
-               <version>3.2.0.10002</version>
-               <class>com.photon.phresco.plugins.CIPlugin</class>
-           </dependency>
-       </implementation>
+            <dependency>
+                <groupId>com.photon.phresco.plugins</groupId>
+                <artifactId>ci-phresco-plugin</artifactId>
+                <type>jar</type>
+                <version>3.2.0.10002</version>
+                <class>com.photon.phresco.plugins.CIPlugin</class>
+            </dependency>
+        </implementation>
         <language>java</language>
         <instantiationStrategy>per-lookup</instantiationStrategy>
         <executionStrategy>once-per-session</executionStrategy>
