@@ -7,7 +7,7 @@
         <connection>https://github.com/syed-ah/DemoProject-Split-Phresco.git</connection>
         <developerConnection>scm:git:https://github.com/syed-ah/DemoProject-Split-Phresco.git</developerConnection>
         <url>scm:git:https://github.com/syed-ah/DemoProject-Split-Phresco.git</url>
-      <tag>boston</tag>
+      <tag>HEAD</tag>
   </scm>
 	<packaging>phresco</packaging>
 	<name>DemoProject-Split</name>
