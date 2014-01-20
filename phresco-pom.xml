@@ -2,12 +2,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.photon.phresco.service</groupId>
 	<artifactId>DemoProject-Split</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
     <scm>
         <connection>https://github.com/syed-ah/DemoProject-Split-Phresco.git</connection>
         <developerConnection>scm:git:https://github.com/syed-ah/DemoProject-Split-Phresco.git</developerConnection>
         <url>scm:git:https://github.com/syed-ah/DemoProject-Split-Phresco.git</url>
-      <tag>1.0.0</tag>
+      <tag>5.0</tag>
   </scm>
 	<packaging>phresco</packaging>
 	<name>DemoProject-Split</name>
